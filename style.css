@@ -1,0 +1,35 @@
+@import url("./node_modules/swiper/swiper-bundle.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  height: auto;
+  transform: translateY(-50%);
+  border-radius: 10px;
+  width: 150px;
+  padding: 8px;
+  background-color: white;
+}
+.swiper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
